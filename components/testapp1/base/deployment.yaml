@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: testapp1
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-user-workloads/klakshma-tenant/testapp1/testapp1@sha256:da95bc0963e2438b2650a2cef72134e07d8f6c97e4dcb18c400cb217bd20df13
         name: my-python
         ports:
         - containerPort: 8081
